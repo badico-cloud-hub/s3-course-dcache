@@ -1,4 +1,4 @@
-export function hello(who: string): string {
+export function hello(who: string): void {
   console.log('Hello', who)
 }
 
