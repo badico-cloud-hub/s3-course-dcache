@@ -6,7 +6,7 @@
   "types": "build/main.d.ts",
   "scripts": {
     "test:local": "NODE_ENV=test:local npx jest",
-    "test": "npx jest",
+    "test:prod": "npx jest",
     "build": "npx tsc"
   },
   "devDependencies": {
